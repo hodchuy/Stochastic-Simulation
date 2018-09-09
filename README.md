@@ -2,6 +2,8 @@
 The workbook aims to analyze Facebook stock movement in 2018 and try to use Montecarlo to simulate the stock movement in 360 days
 The simulation use the Geometric Brownian Motion (GBM), meaning that the stock price follows a random walk and is consistent with (at the very least) the weak form of the efficient market hypothesis (EMH) – past price information can reflect future price.
 
+- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+
 \begin{align}
 \delta{S} & =  S (\mu \delta{t} + \sigma \epsilon \sqrt(\delta{t})
 \end{align}
